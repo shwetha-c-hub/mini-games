@@ -1,0 +1,29 @@
+*{
+    background-color:#CDB2AB;
+}
+.heading{
+    color:#A14A76;
+    font-size:50px;
+    text-align:center;
+    font-family: cursive;
+}
+.mainbox{
+    display:flex;
+     margin:60px auto 0 auto;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:60px;
+    background-color:#c88ea0;
+    height:400px;
+    width:90%;
+    border:2px solid #bd93ba;
+    border-radius:10px;
+    
+}
+.box{
+    height:90%;
+    width:30%;
+    background-color:white;
+    border:1px solid #bd93ba;
+    border-radius:10px;
+}
