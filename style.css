@@ -7,6 +7,9 @@
     text-align:center;
     font-family: cursive;
 }
+.heading:hover{
+    transform: scale(1.1);
+}
 .mainbox{
     display:flex;
     margin:60px auto 0 auto;
@@ -42,6 +45,9 @@
     margin:0;
     background-color:#f0add0;
 }
+.symbols:hover{
+    transform: scale(1.1);
+}
 .game-name{
     font-size:40px;
     font-family: cursive;
@@ -50,7 +56,9 @@
     background-color:#f0add0;
      text-align:center;
     width:100%;
+    transition: transform 0.3s ease;
 }
+
 .play-button{
     font-size:40px;
     margin:0;
@@ -59,4 +67,8 @@
     border-radius:20px;
     color:#A14A76;
     border:2px solid #c88ea0;
+    transition: transform 0.3s ease;
+}
+.play-button:hover{
+    transform: scale(1.1);
 }
