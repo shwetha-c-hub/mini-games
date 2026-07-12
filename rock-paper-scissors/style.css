@@ -89,3 +89,21 @@ h1{
     color:#A14A76;
     font-size:20px;
 }
+@media (max-width:768px){
+
+    .choice{
+
+        width:80px;
+        height:80px;
+
+        font-size:40px;
+
+    }
+
+    .choices{
+
+        gap:15px;
+
+    }
+
+}
