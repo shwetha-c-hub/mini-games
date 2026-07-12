@@ -1,5 +1,5 @@
 *{
-    background-color:#CDB2AB;
+    background-color:#ebb3c5;
 }
 .heading{
     color:#A14A76;
@@ -17,13 +17,46 @@
     height:400px;
     width:90%;
     border:2px solid #bd93ba;
-    border-radius:10px;
+    border-radius:20px;
     
 }
 .box{
     height:90%;
     width:30%;
     background-color:white;
+    
+    border-radius:20px;
+}
+.card{
+    display:flex;
+    height:100%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#f0add0;
     border:1px solid #bd93ba;
-    border-radius:10px;
+    border-radius:20px;
+}
+.symbols{
+    font-size:55px;
+    margin:0;
+    background-color:#f0add0;
+}
+.game-name{
+    font-size:40px;
+    font-family: cursive;
+    margin:0;
+    color:#A14A76;
+    background-color:#f0add0;
+     text-align:center;
+    width:100%;
+}
+.play-button{
+    font-size:40px;
+    margin:0;
+    background-color:#ebb3c5;
+    font-family: cursive;
+    border-radius:20px;
+    color:#e35683;
+    border:2px solid #c88ea0;
 }
